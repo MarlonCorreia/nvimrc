@@ -25,7 +25,7 @@ Plug 'MunifTanjim/nui.nvim'
 Plug ('nvim-neo-tree/neo-tree.nvim', { branch= 'v2.x' })
 
 -- Treesitter
-Plug ('nvim-treesitter/nvim-treesitter', {['do']= ':TSUpdate'})
+Plug ('nvim-treesitter/nvim-treesitter', { ['do']= ':TSUpdate'})
 
 -- Lsp Zero
 Plug 'neovim/nvim-lspconfig'
@@ -38,7 +38,10 @@ Plug 'williamboman/mason-lspconfig.nvim'
 Plug 'neovim/nvim-lspconfig'
 
 -- ToggleTerm
-Plug ('akinsho/toggleterm.nvim', {tag= '*'})
+Plug ('akinsho/toggleterm.nvim', { tag= '*' })
+
+-- Harpoon
+Plug ("ThePrimeagen/harpoon", { branch = "harpoon2" })
 
 vim.call('plug#end')
 
