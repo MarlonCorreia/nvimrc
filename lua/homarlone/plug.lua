@@ -43,5 +43,8 @@ Plug ('akinsho/toggleterm.nvim', { tag= '*' })
 -- Harpoon
 Plug ("ThePrimeagen/harpoon", { branch = "harpoon2" })
 
+-- Signify
+Plug 'mhinz/vim-signify'
+
 vim.call('plug#end')
 
