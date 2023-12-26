@@ -46,5 +46,9 @@ Plug ("ThePrimeagen/harpoon", { branch = "harpoon2" })
 -- Signify
 Plug 'mhinz/vim-signify'
 
+-- Comment
+Plug 'numToStr/Comment.nvim'
+
+
 vim.call('plug#end')
 
