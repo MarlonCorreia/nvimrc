@@ -15,7 +15,10 @@ require("neo-tree").setup({
 				conflict  = "",
 			}
 		},
-	}
+	},
+    filesystem = {
+        use_libuv_file_watcher = true,
+    }
 })
 
 vim.keymap.set('n', '<Leader>nn', vim.cmd.Neotree)
