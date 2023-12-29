@@ -49,6 +49,8 @@ Plug 'mhinz/vim-signify'
 -- Comment
 Plug 'numToStr/Comment.nvim'
 
+--- Formatter
+Plug 'mhartington/formatter.nvim'
 
 vim.call('plug#end')
 
