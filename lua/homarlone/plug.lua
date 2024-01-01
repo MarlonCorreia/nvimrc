@@ -11,7 +11,7 @@ Plug ('liquidz/vim-iced', { ['for']= 'clojure' })
 
 -- Telescope
 Plug 'nvim-lua/plenary.nvim'
-Plug('nvim-telescope/telescope.nvim', { tag= '0.1.5' })
+Plug('nvim-telescope/telescope.nvim', { brach= '0.1.5' })
 
 -- OneDark
 Plug 'navarasu/onedark.nvim'
