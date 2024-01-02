@@ -49,11 +49,11 @@ Plug 'numToStr/Comment.nvim'
 --- Formatter
 Plug 'mhartington/formatter.nvim'
 
--- Harpoon
-Plug ("ThePrimeagen/harpoon", { branch = "harpoon2" })
-
 --- GitSigns
 Plug 'lewis6991/gitsigns.nvim'
+
+-- Lualine
+Plug 'nvim-lualine/lualine.nvim'
 
 vim.call('plug#end')
 
