@@ -21,4 +21,4 @@ require("neo-tree").setup({
     }
 })
 
-vim.keymap.set('n', '<Leader>nn', vim.cmd.Neotree)
+vim.keymap.set('n', '<C-n>', vim.cmd.Neotree)
