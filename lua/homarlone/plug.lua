@@ -40,9 +40,6 @@ Plug 'neovim/nvim-lspconfig'
 -- ToggleTerm
 Plug ('akinsho/toggleterm.nvim', { tag= '*' })
 
--- Harpoon
-Plug ("ThePrimeagen/harpoon", { branch = "harpoon2" })
-
 -- Signify
 Plug 'mhinz/vim-signify'
 
@@ -51,6 +48,12 @@ Plug 'numToStr/Comment.nvim'
 
 --- Formatter
 Plug 'mhartington/formatter.nvim'
+
+--- BarBar
+Plug 'romgrk/barbar.nvim'
+
+--- GitSigns
+Plug 'lewis6991/gitsigns.nvim'
 
 vim.call('plug#end')
 
