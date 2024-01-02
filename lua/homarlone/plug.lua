@@ -49,8 +49,8 @@ Plug 'numToStr/Comment.nvim'
 --- Formatter
 Plug 'mhartington/formatter.nvim'
 
---- BarBar
-Plug 'romgrk/barbar.nvim'
+-- Harpoon
+Plug ("ThePrimeagen/harpoon", { branch = "harpoon2" })
 
 --- GitSigns
 Plug 'lewis6991/gitsigns.nvim'
