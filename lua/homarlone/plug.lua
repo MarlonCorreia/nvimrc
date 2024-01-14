@@ -40,9 +40,6 @@ Plug 'neovim/nvim-lspconfig'
 -- ToggleTerm
 Plug ('akinsho/toggleterm.nvim', { tag= '*' })
 
--- Signify
-Plug 'mhinz/vim-signify'
-
 -- Comment
 Plug 'numToStr/Comment.nvim'
 
