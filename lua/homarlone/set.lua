@@ -7,7 +7,7 @@ vim.opt.relativenumber = true
 vim.g.rainbow_active = true
 vim.g.iced_enable_default_key_mappings = true
 
-vim.cmd.colorscheme("onedark")
+vim.cmd.colorscheme("kanagawa-dragon")
 
 vim.api.nvim_set_hl(0, "@punctuation.bracket", { link = "" })
 

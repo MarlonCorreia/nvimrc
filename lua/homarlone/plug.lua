@@ -13,8 +13,9 @@ Plug ('liquidz/vim-iced', { ['for']= 'clojure' })
 Plug 'nvim-lua/plenary.nvim'
 Plug('nvim-telescope/telescope.nvim', { brach= '0.1.5' })
 
--- OneDark
-Plug 'navarasu/onedark.nvim'
+-- Themes
+-- Plug 'navarasu/onedark.nvim'
+Plug "rebelot/kanagawa.nvim"
 
 -- Rainbow
 Plug 'luochen1990/rainbow'
