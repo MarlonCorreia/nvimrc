@@ -18,7 +18,7 @@ Plug('nvim-telescope/telescope.nvim', { brach= '0.1.5' })
 Plug "rebelot/kanagawa.nvim"
 
 -- Rainbow
-Plug 'luochen1990/rainbow'
+Plug "HiPhish/rainbow-delimiters.nvim"
 
 -- Neo Tree
 Plug 'nvim-tree/nvim-web-devicons'
