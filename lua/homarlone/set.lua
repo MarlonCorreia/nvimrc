@@ -18,3 +18,4 @@ vim.opt.expandtab = true
 vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
 vim.opt.hlsearch = false 
+vim.opt.wrap = false 
