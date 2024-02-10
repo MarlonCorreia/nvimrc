@@ -1,11 +1,11 @@
 return {
-    {  
-        "rebelot/kanagawa.nvim",
-        lazy = false, 
-        priority = 1000, 
+   {
+        'catppuccin/nvim',
+        name = "catppuccin",
+        priority = 1000,
         config = function()
-            vim.cmd([[colorscheme kanagawa]])
-        end,
+           vim.cmd([[colorscheme catppuccin]])
+        end
     },
     {
         'numToStr/Comment.nvim',
@@ -16,7 +16,7 @@ return {
     {
         'liquidz/vim-iced',
         ft = {'clojure'},
-        config = function() 
+        config = function()
             vim.g.iced_enable_default_key_mappings = true
         end,
     },
