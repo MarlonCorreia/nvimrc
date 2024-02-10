@@ -2,13 +2,14 @@ return {
     'lewis6991/gitsigns.nvim',
     config = function()
         require('gitsigns').setup({
+            attach_to_untracked = true,
             signs = {
-                add          = { text = '│' },
-                change       = { text = '│' },
-                delete       = { text = '_' },
-                topdelete    = { text = '‾' },
+                add          = { text = '▐' },
+                change       = { text = '▐' },
+                delete       = { text = '▂' },
+                topdelete    = { text = '▀' },
                 changedelete = { text = '~' },
-                untracked    = { text = '┆' },
+                untracked    = { text = '▚' },
             },
             on_attach = function(bufnr)
                 local function map(mode, lhs, rhs, opts)
